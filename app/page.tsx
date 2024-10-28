@@ -42,7 +42,7 @@ export default function App() {
     <Authenticator>
       {({ signOut, user }) => (
         <main>
-          <h1>My todos</h1>
+          <h1>My todos TETST</h1>
           <button onClick={createTodo}>+ new</button>
           <ul>
             {todos.map((todo) => (
